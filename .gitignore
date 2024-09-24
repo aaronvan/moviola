@@ -1,0 +1,55 @@
+# Ignore object files and binaries
+*.o
+*.out
+*.a
+*.so
+
+# Ignore executable files
+*.exe
+*.dll
+
+# Ignore debugging files
+*.dSYM/
+*.stackdump
+
+# Ignore precompiled headers
+*.gch
+
+# Ignore static libraries
+*.lib
+*.la
+
+# Ignore dynamic libraries
+*.dylib
+
+# Ignore build directories
+/build/
+/bin/
+/obj/
+/lib/
+/target/
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+
+# Ignore IDE and editor-specific files (optional, depending on your editor)
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Ignore coverage reports
+*.gcda
+*.gcno
+*.gcov
+
+# Ignore auto-generated files (optional, depending on your tools)
+Makefile
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
