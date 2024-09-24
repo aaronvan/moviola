@@ -20,7 +20,7 @@ int main(void) {
 	char *url = (char *)malloc(sizeof(char) * 100);
 	sprintf(url, "%s%s%s", base_url, movie_title, apikey);
 	replaceWhiteSpace(url);
-	//puts(url);
+	puts(url);
 
     /* initialize struct with one byte buffer and size 0 */
     struct movie_data movie;
@@ -60,8 +60,8 @@ int main(void) {
     free(url);
 
     /* output results */
-    //printf("Read %ld bytes:\n", movie.size);
-    //puts(movie.buffer);
+    printf("Read %ld bytes:\n", movie.size);
+    puts(movie.buffer);
     bufferParser(movie.buffer);
 
     return EXIT_SUCCESS;
