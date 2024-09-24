@@ -2,7 +2,8 @@
 ## Moviola ##
 #############
 
-# use gmake
+# use gmake instead of make
+
 
 CC       = clang
 CFLAGS   = -Wall -Werror -g -c -Iinclude -std=c17 -pedantic
