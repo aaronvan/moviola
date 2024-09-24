@@ -13,7 +13,7 @@ Full functionality.
 Technical Breakdown:
 
 User enters the movie title.
-getAPISearchString() converts the movie title into a OMDb search string URL.
+convert the movie title into a OMDb search string URL.
 Creates a URL connection to the database and opens the connection.
 Creates an input stream to the data file
 Writes to the data file in JSON format for eventual parsing
