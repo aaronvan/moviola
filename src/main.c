@@ -12,6 +12,7 @@ int main(void) {
 	
 	printf("Enter the movie title: ");
 	if (fgets(movie_title, 20, stdin)) {
+		// overwrite the newline character with a 0
 		movie_title[strcspn(movie_title, "\n")] = 0;
 	}
 	
