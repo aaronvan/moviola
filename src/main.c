@@ -8,7 +8,7 @@ int main(void) {
 
 	const char base_url[] = "http://www.omdbapi.com/?t=";
 	char movie_title[20];
-	const char apikey[] = "&apikey=f7e8e042";
+	const char apikey[] = "&apikey={your API key}";
 	
 	printf("Enter the movie title: ");
 	if (fgets(movie_title, 20, stdin)) {
